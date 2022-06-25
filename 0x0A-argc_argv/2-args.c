@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 void print_array_elements(char *str);
 
