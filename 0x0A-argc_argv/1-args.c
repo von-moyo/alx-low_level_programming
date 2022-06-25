@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 void print_number(int num);
 
