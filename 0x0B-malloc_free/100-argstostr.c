@@ -46,6 +46,6 @@ char *argstostr(int ac, char **av)
 		result[count++] = '\n';
 	}
 
-	result[t_count] = '\0';
-	return (0);
+	result[t_count] = '0';
+	return (result);
 }
