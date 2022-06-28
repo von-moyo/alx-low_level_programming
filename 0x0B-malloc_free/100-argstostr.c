@@ -47,5 +47,5 @@ char *argstostr(int ac, char **av)
 	}
 
 	result[t_count] = '\0';
-	return 0;
+	return (0);
 }
