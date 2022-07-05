@@ -1,0 +1,5 @@
+.c school.c
+
+all:
+	$(CC) $(SRC) -o holberton
+	$(CC) $(SRC) -o s
