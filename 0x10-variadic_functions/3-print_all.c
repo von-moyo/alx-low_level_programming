@@ -1,6 +1,4 @@
-\n");
-	va_end(list);
-}#include <stdio.h>
+#include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 
@@ -48,4 +46,6 @@ void print_all(const char * const format, ...)
 			break; }
 		j++;
 	}
-	printf("
+	printf("\n");
+	va_end(list);
+}
